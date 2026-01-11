@@ -6,11 +6,7 @@
 
 A high-performance, memory-efficient **HEIC to JPEG converter** plugin for Cordova/PhoneGap.
 
-This plugin is engineered to handle **high-resolution HEIC images** (e.g., 108MP photos from modern smartphones) directly from the filesystem without causing **OOM (Out Of Memory)** crashes. It utilizes native frameworks (`ImageIO` on iOS, `BitmapFactory` options on Android) to resize and convert images efficiently.
-
-> ### 🏥 Trusted by ModelDerm Project
->
-> This plugin is currently deployed in the **Skin Disease Analysis Algorithm [ModelDerm (https://modelderm.com)](https://modelderm.com)**. 
+This plugin is engineered to handle **high-resolution HEIC images** (e.g., 108MP photos from modern smartphones) directly from the filesystem without causing **OOM (Out Of Memory)** crashes. It utilizes native frameworks (`ImageIO` on iOS, `BitmapFactory` options on Android) to resize and convert images efficiently. This plugin is currently deployed in the **Skin Disease Analysis Algorithm [ModelDerm (https://modelderm.com)](https://modelderm.com)**. 
 
 ---
 
