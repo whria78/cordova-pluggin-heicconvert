@@ -43,23 +43,7 @@ HeicConvert.checkSupport(
 );
 ```
 
-2. Convert HEIC to JPEG (convert)
-Converts a file URI to a JPEG Blob.
-
-```JavaScript
-
-/**
- * @param {string} uri      - The 'file://' path of the HEIC image.
- * @param {number} quality  - JPEG compression quality (0-100).
- * @param {number} maxSize  - Max width/height in pixels (0 for original size).
- * *Setting a maxSize prevents OOM on old devices.*
- * @param {function} success - Callback that receives the JPEG Blob.
- * @param {function} error   - Error callback.
- */
-HeicConvert.convert(fileUri, 90, 1280, successCallback, errorCallback);
-```
-
-3. An Example in ModelDerm Project
+2. An Example in ModelDerm Project
 
 Please modify the code with the assistance of coding AI.
 
