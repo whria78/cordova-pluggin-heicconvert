@@ -10,7 +10,7 @@ This plugin is engineered to handle **high-resolution HEIC images** (e.g., 108MP
 
 > ### 🏥 Trusted by ModelDerm Project
 >
-> This plugin is currently deployed in the **Skin Disease Analysis Algorithm [ModelDerm; https://modelderm.com](https://modelderm.com)**. 
+> This plugin is currently deployed in the **Skin Disease Analysis Algorithm [ModelDerm (https://modelderm.com)](https://modelderm.com)**. 
 
 ---
 
