@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-heicconvert",
+  "version": "1.1.0", 
+  "cordova": {
+    "id": "cordova-plugin-heicconvert",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "HEIC to JPEG converter for Cordova (Android & iOS)",
+  "keywords": [
+    "cordova",
+    "heic",
+    "jpeg",
+    "convert",
+    "android",
+    "ios"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-heicconvert"
+        version="1.1.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>HeicConvert</name>
+
+    <!-- JS 모듈 -->
+    <js-module src="www/heicconvert.js" name="HeicConvert">
+        <clobbers target="HeicConvert" />
+    </js-module>
+
+    <!-- ANDROID -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="HeicConvert">
+                <param name="android-package"
+                       value="com.example.heicconvert.HeicConvert" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/HeicConvert.java"
+                     target-dir="src/com/example/heicconvert" />
+    </platform>
+
+    <!-- IOS -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HeicConvert">
+                <param name="ios-package" value="HeicConvert" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/HeicConvert.h" />
+        <source-file src="src/ios/HeicConvert.m" />
+    </platform>
+
+</plugin>
