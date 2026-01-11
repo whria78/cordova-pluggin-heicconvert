@@ -159,4 +159,5 @@ window.resolveLocalFileSystemURL(cacheDir, (dirEntry) => {
 
 ## 📄 License
 > MIT License
+> 
 > Please mention that this is the plugin used at Model Dermatology (https://modelderm.com).
