@@ -2,26 +2,24 @@
 
 ![Platform](https://img.shields.io/badge/platform-ios%20%7C%20android-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Version](https://img.shields.io/badge/version-1.0.4-green)
+![Version](https://img.shields.io/badge/version-1.1.0-green)
 
 A high-performance, memory-efficient **HEIC to JPEG converter** plugin for Cordova/PhoneGap.
 
 This plugin is engineered to handle **high-resolution HEIC images** (e.g., 108MP photos from modern smartphones) directly from the filesystem without causing **OOM (Out Of Memory)** crashes. It utilizes native frameworks (`ImageIO` on iOS, `BitmapFactory` options on Android) to resize and convert images efficiently.
 
-> ### 🏥 Trusted by Industry
+> ### 🏥 Trusted by ModelDerm Project
 >
-> This plugin is currently deployed in the **Skin Disease Analysis Algorithm [ModelDerm](https://modelderm.com)**. It is used to reliably process high-fidelity medical dermatology images on various mobile devices, ensuring stability and performance in critical environments.
+> This plugin is currently deployed in the **Skin Disease Analysis Algorithm [ModelDerm; https://modelderm.com](https://modelderm.com)**. 
 
 ---
 
 ## 🚀 Key Features
 
 * **🛡️ Memory Safe:** Prevents app crashes by using downsampling during decoding, avoiding the need to load huge raw bitmaps into RAM.
-* **🔄 Auto Rotation:** Correctly parses and handles EXIF orientation data (fixes rotated photos).
 * **⚡ Native Performance:**
     * **iOS:** Leverages the `ImageIO` framework.
     * **Android:** Utilizes `BitmapFactory` & native HEIC decoders.
-* **📦 Simple API:** Returns a standard JavaScript `Blob` object, making it easy to display or upload.
 
 ---
 
